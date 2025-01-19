@@ -1,5 +1,4 @@
 html{
-    height: 100vh;
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
 }
@@ -11,7 +10,6 @@ body{
     margin-left: 1%;
     margin-right: 1%;
     font-size: auto;
-    height: 100vh;
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
 }
@@ -28,9 +26,9 @@ body{
     margin: 0%;
     padding-top: 0%;
     padding-bottom: 0%;
-    padding-left: 0%;
-    padding-right: 0%;
-    display: flex;
+    padding-left: 3%;
+    padding-right: 3%;
+    display: grid;
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
@@ -38,22 +36,22 @@ body{
 
 #greeting{
     color: grey;
-    font-size: 16.5vw;
+    font-size: 16.35vw;
     text-align: center;
-    position: absolute;
+    position: relative;
 }
 
 #generallyDiv{
     height: 100vh;
     position: relative;
     margin: 0%;
-    align-content: start;
+    align-content: center;
     padding-top: 0%;
     padding-bottom: 0%;
     padding-left: 4.5vw;
     padding-right: 4.5vw;
     display: grid;
-    row-gap: 0.3vw;
+    row-gap: 0.15vw;
     scroll-snap-align: center;
 }
 
@@ -69,7 +67,7 @@ body{
 
 #generallyBody{
     margin: 0%;
-    align-content: start;
+    align-items: center;
     font-size: 3vw;
     grid-row-start: 2;
     grid-row-end: 3;
@@ -77,40 +75,39 @@ body{
 
 #generally1{
     color: grey;
-    font-size: 2.85vh;
+    font-size: 2.6955vh;
     font-weight: bolder;
     line-height: 99%;
     margin-top: 0.675%;
     margin-bottom: 1.5%;
     margin-left: 3.75vw;
     margin-right: 3.75vw;
-    text-align: justify;
+    text-align: right;
     display: block;
 }
 
 #generally2{
     color: grey;
-    font-size: 2.85vh;
+    font-size: 2.6955vh;
     font-weight: bolder;
     line-height: 99%;
     margin-top: 0.675%;
     margin-bottom: 1.5%;
     margin-left: 3.75vw;
     margin-right: 3.75vw;
-    text-align: justify;
     display: block;
 }
 
 #generally3{
     color: grey;
-    font-size: 2.85vh;
+    font-size: 2.6955vh;
     font-weight: bolder;
     line-height: 99%;
     margin-top: 0.675%;
     margin-bottom: 1.5%;
     margin-left: 3.75vw;
     margin-right: 3.75vw;
-    text-align: justify;
+    text-align: right;
     display: block;
 }
 
@@ -119,15 +116,17 @@ body{
 }
 
 .itemLabels{
+    position: relative;
     color: grey;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 2.85vw;
+    font-size: 2.55vw;
     font-weight: bolder;
     margin-bottom: 0%;
 }
 
 #itemGetCV{
-    width: 12vw;
+    position: relative;
+    width: 10.5vw;
     margin-left: 37.5vw;
     margin-right: 37.5vw;
     padding-left: 1.5vw;
